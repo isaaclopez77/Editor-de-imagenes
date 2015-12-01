@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Principal">
+
+    <item android:id="@+id/mnDeshacer" android:icon="@drawable/icon_undo"
+        android:title="Deshacer"  android:orderInCategory="1" app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/mnGuardar" android:title="Guardar"
+        android:orderInCategory="2" app:showAsAction="never" />
+
+</menu>
